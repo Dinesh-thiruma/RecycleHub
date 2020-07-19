@@ -50,13 +50,12 @@ def train(epochs, loader, model, optimizer, criterion, use_cuda, save_path):
       optimizer.step()
 
       current_loss = current_loss + ((1 / (batch_idx + 1)) * (loss.data - current_loss))
-      print(str(current_loss))
-      print("Loss:" + str(loss))
-      print("Epoch:" + str(ii))
+      print("Epoch:" + str(ii) + "Loss:" + str(loss))
 
 
       if min_loss > current_loss:
-        loss = min_loss
+        print("Loss went from " + str(min_loss) + " -> " + str(current_loss) + " Saving ...")
+        min_loss = current_loss
         torch.save(model.state_dict(), save_path)
 
 
