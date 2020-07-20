@@ -43,6 +43,10 @@ def train(epochs, loader, model, optimizer, criterion, use_cuda, save_path):
     current_loss = 0
 
     for batch_idx, (data, target) in enumerate(data_loader):
+      
+      if use_cuda:
+        data, target = data.cuda(), target.cuda()
+        
       optimizer.zero_grad()
       output = model(data)
       loss = criterion(output, target)
