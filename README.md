@@ -5,7 +5,7 @@ Helps make recycling easier (and more fun) by using a neural network to detect w
 
 # Dependencies
 
-For the neural network:
+For recycle_net.py:
 - Python 3.8
 - torchvision-0.6.1
 - torch-1.5.1
