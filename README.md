@@ -1,4 +1,4 @@
-# RecycleHub
+# RecycleHub ![alt text](https://github.com/adithyachan/RecycleHub/blob/master/RecycleHub/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png "RecycleHub Logo")
 Built for &lt;hack> Cupertino
 
 Helps make recycling easier (and more fun) by using a neural network to detect what type of trash a user takes an image of. Also gives an estimated dollar amount that the user could recieve for recycling the item and points the user to a nearby recycling plant. 
