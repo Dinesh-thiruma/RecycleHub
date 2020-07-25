@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B04738424C9C59700ADC791 /* MapDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B04738324C9C59700ADC791 /* MapDetailsViewController.swift */; };
+		1B2AAD2F24CA24C70088B2C4 /* TorchModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1B2AAD2E24CA24C70088B2C4 /* TorchModule.mm */; };
+		1B2AAD3224CA25550088B2C4 /* UIImage+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2AAD3124CA25550088B2C4 /* UIImage+Helper.swift */; };
+		1B2AAD3524CA27CA0088B2C4 /* trace_model.py in Resources */ = {isa = PBXBuildFile; fileRef = 1B2AAD3424CA27CA0088B2C4 /* trace_model.py */; };
+		1B2AAD3924CA281B0088B2C4 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1B2AAD3824CA281A0088B2C4 /* words.txt */; };
+		1B2AAD3B24CA29DE0088B2C4 /* model.pt in Resources */ = {isa = PBXBuildFile; fileRef = 1B2AAD3A24CA29DE0088B2C4 /* model.pt */; };
+		1B2AAD3F24CA6C1C0088B2C4 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2AAD3E24CA6C1C0088B2C4 /* StatisticsViewController.swift */; };
+		1B2AAD4124CB258E0088B2C4 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2AAD4024CB258E0088B2C4 /* TabViewController.swift */; };
+		1B2AAD4324CBC6420088B2C4 /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2AAD4224CBC6420088B2C4 /* MyCustomCell.swift */; };
+		1B2AAD4524CBC6940088B2C4 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2AAD4424CBC6940088B2C4 /* LogViewController.swift */; };
+		1B2AAD4724CC93130088B2C4 /* StatisticsSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2AAD4624CC93120088B2C4 /* StatisticsSubViewController.swift */; };
+		1B477F2724C8B41900C83599 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B477F2624C8B41900C83599 /* MapViewController.swift */; };
+		1BC2AB5424C64A3700CB9C4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2AB5324C64A3700CB9C4D /* AppDelegate.swift */; };
+		1BC2AB5624C64A3700CB9C4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2AB5524C64A3700CB9C4D /* SceneDelegate.swift */; };
+		1BC2AB5824C64A3700CB9C4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2AB5724C64A3700CB9C4D /* ViewController.swift */; };
+		1BC2AB5B24C64A3700CB9C4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2AB5924C64A3700CB9C4D /* Main.storyboard */; };
+		1BC2AB5D24C64A4800CB9C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2AB5C24C64A4800CB9C4D /* Assets.xcassets */; };
+		1BC2AB6024C64A4800CB9C4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2AB5E24C64A4800CB9C4D /* LaunchScreen.storyboard */; };
+		1BC2AB6B24C64A4900CB9C4D /* RecycleHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2AB6A24C64A4900CB9C4D /* RecycleHubTests.swift */; };
+		1BF178CD24C654B4007D044B /* cameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF178CC24C654B4007D044B /* cameraViewController.swift */; };
+		1BF178CF24C7AB17007D044B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF178CE24C7AB17007D044B /* DetailsViewController.swift */; };
+		1BF178D124C8AD11007D044B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1BF178D024C8AD11007D044B /* Podfile */; };
+		FEEF007638779AF2A84D4B71 /* libPods-RecycleHub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B14B814FA4F599815771957F /* libPods-RecycleHub.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BC2AB6724C64A4900CB9C4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BC2AB4824C64A3700CB9C4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BC2AB4F24C64A3700CB9C4D;
+			remoteInfo = RecycleHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B04738324C9C59700ADC791 /* MapDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDetailsViewController.swift; sourceTree = "<group>"; };
+		1B2AAD2E24CA24C70088B2C4 /* TorchModule.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TorchModule.mm; sourceTree = "<group>"; };
+		1B2AAD3024CA24F80088B2C4 /* TorchModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TorchModule.h; sourceTree = "<group>"; };
+		1B2AAD3124CA25550088B2C4 /* UIImage+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Helper.swift"; sourceTree = "<group>"; };
+		1B2AAD3324CA270C0088B2C4 /* RecycleHub-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecycleHub-Bridging-Header.h"; sourceTree = "<group>"; };
+		1B2AAD3424CA27CA0088B2C4 /* trace_model.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = trace_model.py; sourceTree = "<group>"; };
+		1B2AAD3824CA281A0088B2C4 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		1B2AAD3A24CA29DE0088B2C4 /* model.pt */ = {isa = PBXFileReference; lastKnownFileType = file; path = model.pt; sourceTree = "<group>"; };
+		1B2AAD3E24CA6C1C0088B2C4 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		1B2AAD4024CB258E0088B2C4 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		1B2AAD4224CBC6420088B2C4 /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
+		1B2AAD4424CBC6940088B2C4 /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		1B2AAD4624CC93120088B2C4 /* StatisticsSubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsSubViewController.swift; sourceTree = "<group>"; };
+		1B477F2624C8B41900C83599 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1BC2AB5024C64A3700CB9C4D /* RecycleHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecycleHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC2AB5324C64A3700CB9C4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BC2AB5524C64A3700CB9C4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1BC2AB5724C64A3700CB9C4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BC2AB5A24C64A3700CB9C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BC2AB5C24C64A4800CB9C4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BC2AB5F24C64A4800CB9C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BC2AB6124C64A4800CB9C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BC2AB6624C64A4900CB9C4D /* RecycleHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecycleHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC2AB6A24C64A4900CB9C4D /* RecycleHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleHubTests.swift; sourceTree = "<group>"; };
+		1BC2AB6C24C64A4900CB9C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF178CC24C654B4007D044B /* cameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraViewController.swift; sourceTree = "<group>"; };
+		1BF178CE24C7AB17007D044B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		1BF178D024C8AD11007D044B /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6C388CAF682576E377147741 /* Pods-RecycleHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecycleHub.debug.xcconfig"; path = "Target Support Files/Pods-RecycleHub/Pods-RecycleHub.debug.xcconfig"; sourceTree = "<group>"; };
+		B14B814FA4F599815771957F /* libPods-RecycleHub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RecycleHub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D172C4C41EFB4B7AE00A981C /* Pods-RecycleHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecycleHub.release.xcconfig"; path = "Target Support Files/Pods-RecycleHub/Pods-RecycleHub.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BC2AB4D24C64A3700CB9C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEF007638779AF2A84D4B71 /* libPods-RecycleHub.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC2AB6324C64A4900CB9C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BC2AB4724C64A3700CB9C4D = {
+			isa = PBXGroup;
+			children = (
+				1BF178D024C8AD11007D044B /* Podfile */,
+				1BC2AB5224C64A3700CB9C4D /* RecycleHub */,
+				1BC2AB6924C64A4900CB9C4D /* RecycleHubTests */,
+				1BC2AB5124C64A3700CB9C4D /* Products */,
+				8A7CF416EFEF66A8D936E069 /* Pods */,
+				5736F12C5C4FB4C326D3A067 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1BC2AB5124C64A3700CB9C4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BC2AB5024C64A3700CB9C4D /* RecycleHub.app */,
+				1BC2AB6624C64A4900CB9C4D /* RecycleHubTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BC2AB5224C64A3700CB9C4D /* RecycleHub */ = {
+			isa = PBXGroup;
+			children = (
+				1B2AAD3A24CA29DE0088B2C4 /* model.pt */,
+				1B2AAD3824CA281A0088B2C4 /* words.txt */,
+				1B2AAD3424CA27CA0088B2C4 /* trace_model.py */,
+				1BC2AB5324C64A3700CB9C4D /* AppDelegate.swift */,
+				1BC2AB5524C64A3700CB9C4D /* SceneDelegate.swift */,
+				1BC2AB5724C64A3700CB9C4D /* ViewController.swift */,
+				1BC2AB5924C64A3700CB9C4D /* Main.storyboard */,
+				1B2AAD4224CBC6420088B2C4 /* MyCustomCell.swift */,
+				1BC2AB5C24C64A4800CB9C4D /* Assets.xcassets */,
+				1BC2AB5E24C64A4800CB9C4D /* LaunchScreen.storyboard */,
+				1BC2AB6124C64A4800CB9C4D /* Info.plist */,
+				1BF178CC24C654B4007D044B /* cameraViewController.swift */,
+				1BF178CE24C7AB17007D044B /* DetailsViewController.swift */,
+				1B477F2624C8B41900C83599 /* MapViewController.swift */,
+				1B04738324C9C59700ADC791 /* MapDetailsViewController.swift */,
+				1B2AAD2E24CA24C70088B2C4 /* TorchModule.mm */,
+				1B2AAD3024CA24F80088B2C4 /* TorchModule.h */,
+				1B2AAD3124CA25550088B2C4 /* UIImage+Helper.swift */,
+				1B2AAD3324CA270C0088B2C4 /* RecycleHub-Bridging-Header.h */,
+				1B2AAD3E24CA6C1C0088B2C4 /* StatisticsViewController.swift */,
+				1B2AAD4024CB258E0088B2C4 /* TabViewController.swift */,
+				1B2AAD4424CBC6940088B2C4 /* LogViewController.swift */,
+				1B2AAD4624CC93120088B2C4 /* StatisticsSubViewController.swift */,
+			);
+			path = RecycleHub;
+			sourceTree = "<group>";
+		};
+		1BC2AB6924C64A4900CB9C4D /* RecycleHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BC2AB6A24C64A4900CB9C4D /* RecycleHubTests.swift */,
+				1BC2AB6C24C64A4900CB9C4D /* Info.plist */,
+			);
+			path = RecycleHubTests;
+			sourceTree = "<group>";
+		};
+		5736F12C5C4FB4C326D3A067 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B14B814FA4F599815771957F /* libPods-RecycleHub.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A7CF416EFEF66A8D936E069 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C388CAF682576E377147741 /* Pods-RecycleHub.debug.xcconfig */,
+				D172C4C41EFB4B7AE00A981C /* Pods-RecycleHub.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BC2AB4F24C64A3700CB9C4D /* RecycleHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC2AB6F24C64A4900CB9C4D /* Build configuration list for PBXNativeTarget "RecycleHub" */;
+			buildPhases = (
+				A4666874639EBA6E4C8B1324 /* [CP] Check Pods Manifest.lock */,
+				1BC2AB4C24C64A3700CB9C4D /* Sources */,
+				1BC2AB4D24C64A3700CB9C4D /* Frameworks */,
+				1BC2AB4E24C64A3700CB9C4D /* Resources */,
+				410918CE2122CE43B037709E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecycleHub;
+			productName = RecycleHub;
+			productReference = 1BC2AB5024C64A3700CB9C4D /* RecycleHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BC2AB6524C64A4900CB9C4D /* RecycleHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC2AB7224C64A4900CB9C4D /* Build configuration list for PBXNativeTarget "RecycleHubTests" */;
+			buildPhases = (
+				1BC2AB6224C64A4900CB9C4D /* Sources */,
+				1BC2AB6324C64A4900CB9C4D /* Frameworks */,
+				1BC2AB6424C64A4900CB9C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BC2AB6824C64A4900CB9C4D /* PBXTargetDependency */,
+			);
+			name = RecycleHubTests;
+			productName = RecycleHubTests;
+			productReference = 1BC2AB6624C64A4900CB9C4D /* RecycleHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BC2AB4824C64A3700CB9C4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = RecycleHub;
+				TargetAttributes = {
+					1BC2AB4F24C64A3700CB9C4D = {
+						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
+					};
+					1BC2AB6524C64A4900CB9C4D = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 1BC2AB4F24C64A3700CB9C4D;
+					};
+				};
+			};
+			buildConfigurationList = 1BC2AB4B24C64A3700CB9C4D /* Build configuration list for PBXProject "RecycleHub" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BC2AB4724C64A3700CB9C4D;
+			productRefGroup = 1BC2AB5124C64A3700CB9C4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BC2AB4F24C64A3700CB9C4D /* RecycleHub */,
+				1BC2AB6524C64A4900CB9C4D /* RecycleHubTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BC2AB4E24C64A3700CB9C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC2AB6024C64A4800CB9C4D /* LaunchScreen.storyboard in Resources */,
+				1B2AAD3924CA281B0088B2C4 /* words.txt in Resources */,
+				1B2AAD3B24CA29DE0088B2C4 /* model.pt in Resources */,
+				1BC2AB5D24C64A4800CB9C4D /* Assets.xcassets in Resources */,
+				1BF178D124C8AD11007D044B /* Podfile in Resources */,
+				1B2AAD3524CA27CA0088B2C4 /* trace_model.py in Resources */,
+				1BC2AB5B24C64A3700CB9C4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC2AB6424C64A4900CB9C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		410918CE2122CE43B037709E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecycleHub/Pods-RecycleHub-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecycleHub/Pods-RecycleHub-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecycleHub/Pods-RecycleHub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4666874639EBA6E4C8B1324 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecycleHub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BC2AB4C24C64A3700CB9C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC2AB5824C64A3700CB9C4D /* ViewController.swift in Sources */,
+				1B2AAD3F24CA6C1C0088B2C4 /* StatisticsViewController.swift in Sources */,
+				1B477F2724C8B41900C83599 /* MapViewController.swift in Sources */,
+				1B2AAD4524CBC6940088B2C4 /* LogViewController.swift in Sources */,
+				1BF178CD24C654B4007D044B /* cameraViewController.swift in Sources */,
+				1BC2AB5424C64A3700CB9C4D /* AppDelegate.swift in Sources */,
+				1B2AAD4724CC93130088B2C4 /* StatisticsSubViewController.swift in Sources */,
+				1B2AAD3224CA25550088B2C4 /* UIImage+Helper.swift in Sources */,
+				1B2AAD4324CBC6420088B2C4 /* MyCustomCell.swift in Sources */,
+				1B2AAD4124CB258E0088B2C4 /* TabViewController.swift in Sources */,
+				1B04738424C9C59700ADC791 /* MapDetailsViewController.swift in Sources */,
+				1BC2AB5624C64A3700CB9C4D /* SceneDelegate.swift in Sources */,
+				1B2AAD2F24CA24C70088B2C4 /* TorchModule.mm in Sources */,
+				1BF178CF24C7AB17007D044B /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC2AB6224C64A4900CB9C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC2AB6B24C64A4900CB9C4D /* RecycleHubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BC2AB6824C64A4900CB9C4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BC2AB4F24C64A3700CB9C4D /* RecycleHub */;
+			targetProxy = 1BC2AB6724C64A4900CB9C4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BC2AB5924C64A3700CB9C4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BC2AB5A24C64A3700CB9C4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BC2AB5E24C64A4800CB9C4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BC2AB5F24C64A4800CB9C4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BC2AB6D24C64A4900CB9C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BC2AB6E24C64A4900CB9C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BC2AB7024C64A4900CB9C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C388CAF682576E377147741 /* Pods-RecycleHub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 846P2BBS9X;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RecycleHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RecycleHub.RecycleHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RecycleHub/RecycleHub-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BC2AB7124C64A4900CB9C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D172C4C41EFB4B7AE00A981C /* Pods-RecycleHub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 846P2BBS9X;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RecycleHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RecycleHub.RecycleHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RecycleHub/RecycleHub-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1BC2AB7324C64A4900CB9C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 846P2BBS9X;
+				INFOPLIST_FILE = RecycleHubTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RecycleHub.RecycleHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecycleHub.app/RecycleHub";
+			};
+			name = Debug;
+		};
+		1BC2AB7424C64A4900CB9C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 846P2BBS9X;
+				INFOPLIST_FILE = RecycleHubTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RecycleHub.RecycleHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecycleHub.app/RecycleHub";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BC2AB4B24C64A3700CB9C4D /* Build configuration list for PBXProject "RecycleHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC2AB6D24C64A4900CB9C4D /* Debug */,
+				1BC2AB6E24C64A4900CB9C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC2AB6F24C64A4900CB9C4D /* Build configuration list for PBXNativeTarget "RecycleHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC2AB7024C64A4900CB9C4D /* Debug */,
+				1BC2AB7124C64A4900CB9C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC2AB7224C64A4900CB9C4D /* Build configuration list for PBXNativeTarget "RecycleHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC2AB7324C64A4900CB9C4D /* Debug */,
+				1BC2AB7424C64A4900CB9C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BC2AB4824C64A3700CB9C4D /* Project object */;
+}

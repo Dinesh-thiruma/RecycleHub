@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8A47FFC1-DB55-4964-ADDF-CB14E0E28845"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B1C37A5-9195-40A1-BB5E-5983E5149AB4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecycleHub/MapDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "MapDetailsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "5B1C37A5-9195-40A1-BB5E-5983E5149AB4 - 7df77e4355ccd2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecycleHub.MapDetailsViewController.titleLabel2.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "RecycleHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/DInesh/Desktop/RecycleHub/RecycleHub/MapDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "5B1C37A5-9195-40A1-BB5E-5983E5149AB4 - 90391c53edfa1130"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecycleHub.MapDetailsViewController.titleLabel2.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "RecycleHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/DInesh/Desktop/RecycleHub/RecycleHub/MapDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "5B1C37A5-9195-40A1-BB5E-5983E5149AB4 - d6cf2174314e1221"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecycleHub.MapDetailsViewController.titleLabel2.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "RecycleHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/DInesh/Desktop/RecycleHub/RecycleHub/MapDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "5B1C37A5-9195-40A1-BB5E-5983E5149AB4 - 8566de57ddbd94f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecycleHub.MapDetailsViewController.titleLabel2.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "RecycleHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/DInesh/Desktop/RecycleHub/RecycleHub/MapDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "5B1C37A5-9195-40A1-BB5E-5983E5149AB4 - 1ae42cba2a836065"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecycleHub.MapDetailsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; RecycleHub.MapDetailsViewController"
+                  moduleName = "RecycleHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/DInesh/Desktop/RecycleHub/RecycleHub/MapDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "552">
+               </Location>
+               <Location
+                  uuid = "5B1C37A5-9195-40A1-BB5E-5983E5149AB4 - fa32f2e9c807d3cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecycleHub.MapDetailsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;RecycleHub.MapDetailsViewController&gt;"
+                  moduleName = "RecycleHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/DInesh/Desktop/RecycleHub/RecycleHub/MapDetailsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "500">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
