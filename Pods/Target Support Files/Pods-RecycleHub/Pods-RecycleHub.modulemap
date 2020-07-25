@@ -1,6 +1,0 @@
-module Pods_RecycleHub {
-  umbrella header "Pods-RecycleHub-umbrella.h"
-
-  export *
-  module * { export * }
-}
