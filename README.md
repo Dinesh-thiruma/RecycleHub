@@ -9,7 +9,7 @@ Helps make recycling easier (and more fun) by using a neural network to detect w
 
 2. Navigate to `RecycleHub/` and install the necesary libraries with `pod install`
 
-3. Open `RecycleHub.xcworkspace` with Xcode, select the iPhone 11 pro max emulator, and run the app.
+3. Open `RecycleHub.xcworkspace` with Xcode, select the iPhone 11 emulator, and run the app.
 
 
 # Dependencies
@@ -25,4 +25,4 @@ These can be installed with `pip install torchvision`, assuming you are running 
 
 # References
 
-The image data in `/Recycling_app/trash_data` was obtained from [Kaggle](https://www.kaggle.com/asdasdasasdas/garbage-classification)
+The image used to train the model was obtained from [Kaggle](https://www.kaggle.com/asdasdasasdas/garbage-classification)
