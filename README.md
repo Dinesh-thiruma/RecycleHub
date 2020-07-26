@@ -3,6 +3,15 @@ Built for &lt;hack> Cupertino
 
 Helps make recycling easier (and more fun) by using a neural network to detect what type of trash a user takes an image of. Also gives an estimated dollar amount that the user could recieve for recycling the item and points the user to a nearby recycling plant. 
 
+# Installation
+
+1. Clone the repository with `git clone https://github.com/adithyachan/RecycleHub.git`
+
+2. Navigate to `RecycleHub/` and install the necesary libraries with `pod install`
+
+3. Open `RecycleHub.xcworkspace` with xCode, select the iPhone 11 pro max emulator and run the app.
+
+
 # Dependencies
 
 For recycle_net.py:
