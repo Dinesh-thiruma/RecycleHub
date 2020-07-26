@@ -25,12 +25,18 @@ class StatisticsSubViewController: UIViewController {
         let defaults = UserDefaults.standard
         
         var totalAmount: Double = 0.00
-        for money in defaults.array(forKey: "logPriceText") as! [String] {
-            if(money == "$0.05") {
-                totalAmount += 0.05
+        if(defaults.array(forKey: "logPriceText") != nil)
+        {
+            for money in defaults.array(forKey: "logPriceText") as! [String] {
+                if(money == "$0.05") {
+                    totalAmount += 0.05
+                }
             }
+            moneyLabel.text = "$" + String(format: "%.2f", totalAmount)
         }
-        moneyLabel.text = "$" + String(format: "%.2f", totalAmount)
+        else{
+            moneyLabel.text = "$0.00"
+        }
     }
 }
 
@@ -51,12 +57,18 @@ class PlasticSubViewController: UIViewController {
         let defaults = UserDefaults.standard
         
         var count: Int = 0
-        for plastic in defaults.array(forKey: "logImageName") as! [String] {
-            if(plastic == "plasticStatistics") {
-                count += 1
+        if(defaults.array(forKey: "logImageName") != nil)
+        {
+            for plastic in defaults.array(forKey: "logImageName") as! [String] {
+                if(plastic == "plasticStatistics") {
+                    count += 1
+                }
             }
+            plasticLabel.text = String(count)
         }
-        plasticLabel.text = String(count)
+        else{
+            plasticLabel.text = "0"
+        }
     }
 }
 
@@ -76,12 +88,18 @@ class PaperSubViewController: UIViewController {
         let defaults = UserDefaults.standard
         
         var count: Int = 0
-        for paper in defaults.array(forKey: "logImageName") as! [String] {
-            if(paper == "paperStatistics") {
-                count += 1
+        if(defaults.array(forKey: "logImageName") != nil)
+        {
+            for paper in defaults.array(forKey: "logImageName") as! [String] {
+                if(paper == "paperStatistics") {
+                    count += 1
+                }
             }
+            paperLabel.text = String(count)
         }
-        paperLabel.text = String(count)
+        else{
+            paperLabel.text = "0"
+        }
     }
 }
 
@@ -101,12 +119,18 @@ class CardboardSubViewController: UIViewController {
         let defaults = UserDefaults.standard
         
         var count: Int = 0
-        for cardboard in defaults.array(forKey: "logImageName") as! [String] {
-            if(cardboard == "cardboardStatistics") {
-                count += 1
+        if(defaults.array(forKey: "logImageName") != nil)
+        {
+            for cardboard in defaults.array(forKey: "logImageName") as! [String] {
+                if(cardboard == "cardboardStatistics") {
+                    count += 1
+                }
             }
+            cardboardLabel.text = String(count)
         }
-        cardboardLabel.text = String(count)
+        else{
+            cardboardLabel.text = "0"
+        }
     }
 }
 
@@ -126,12 +150,18 @@ class GlassSubViewController: UIViewController {
         let defaults = UserDefaults.standard
         
         var count: Int = 0
+        if(defaults.array(forKey: "logImageName") != nil)
+        {
         for glass in defaults.array(forKey: "logImageName") as! [String] {
             if(glass == "glassStatistics") {
                 count += 1
             }
         }
         glassLabel.text = String(count)
+        }
+        else{
+            glassLabel.text = "0"
+        }
     }
 }
 
@@ -151,11 +181,18 @@ class MetalSubViewController: UIViewController {
          let defaults = UserDefaults.standard
          
          var count: Int = 0
-         for metal in defaults.array(forKey: "logImageName") as! [String] {
-             if(metal == "metalStatistics") {
-                 count += 1
+         if(defaults.array(forKey: "logImageName") != nil)
+         {
+             for metal in defaults.array(forKey: "logImageName") as! [String] {
+                 if(metal == "metalStatistics") {
+                     count += 1
+                 }
              }
-         }
-         metalLabel.text = String(count)
+             metalLabel.text = String(count)
+        }
+         else{
+            metalLabel.text = "0"
+        }
+        
      }
 }
