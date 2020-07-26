@@ -1,4 +1,4 @@
-source 'https://github.com/CocoaPods/Specs.git'
+
 target 'RecycleHub' do
   pod 'GoogleMaps'
   pod 'GooglePlaces'
