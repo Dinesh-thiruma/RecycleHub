@@ -9,7 +9,7 @@ Helps make recycling easier (and more fun) by using a neural network to detect w
 
 2. Navigate to `RecycleHub/` and install the necesary libraries with `pod install`
 
-3. Open `RecycleHub.xcworkspace` with xCode, select the iPhone 11 pro max emulator and run the app.
+3. Open `RecycleHub.xcworkspace` with Xcode, select the iPhone 11 pro max emulator, and run the app.
 
 
 # Dependencies
