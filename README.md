@@ -14,6 +14,11 @@ Helps make recycling easier (and more fun) by using a neural network to detect w
 
 # Dependencies
 
+
+For the IOS app:
+
+It is highly recommended that google maps is installed on the device to take full advantage of the map features.
+
 For recycle_net.py:
 - Python 3.8
 - torchvision-0.6.1
