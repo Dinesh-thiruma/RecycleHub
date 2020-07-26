@@ -130,19 +130,35 @@ class DetailsViewController: UIViewController {
                 let defaults = UserDefaults.standard
                 
                 var logPriceText = defaults.array(forKey: "logPriceText")
-                logPriceText!.insert(self.materialsPrice.text!, at: 0)
+                if(logPriceText != nil) {
+                    logPriceText!.insert(self.materialsPrice.text!, at: 0)
+                }else {
+                    logPriceText = [self.materialsPrice.text]
+                }
                 defaults.set(logPriceText, forKey: "logPriceText")
                 
                 var logTitleText = defaults.array(forKey: "logTitleText")
-                logTitleText!.insert(name, at: 0)
+                if(logTitleText != nil) {
+                    logTitleText!.insert(name, at: 0)
+                }else {
+                    logTitleText = [name]
+                }
                 defaults.set(logTitleText, forKey: "logTitleText")
                 
                 var logDateText = defaults.array(forKey: "logDateText")
-                logDateText!.insert("July 25", at: 0)
+                if(logDateText != nil) {
+                    logDateText!.insert("July 25", at: 0)
+                }else {
+                    logDateText = ["July 25"]
+                }
                 defaults.set(logDateText, forKey: "logDateText")
                 
                 var logImageName = defaults.array(forKey: "logImageName")
-                logImageName!.insert(self.imageTitle, at: 0)
+                if(logImageName != nil) {
+                    logImageName!.insert(self.imageTitle, at: 0)
+                }else {
+                    logImageName = [self.imageTitle]
+                }
                 defaults.set(logImageName, forKey: "logImageName")
             }
         }))
