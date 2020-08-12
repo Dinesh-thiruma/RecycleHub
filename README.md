@@ -30,4 +30,4 @@ These can be installed with `pip install torchvision`, assuming you are running 
 
 # References
 
-The image used to train the model was obtained from [Kaggle](https://www.kaggle.com/asdasdasasdas/garbage-classification)
+The image data used to train the model was obtained from [Kaggle](https://www.kaggle.com/asdasdasasdas/garbage-classification)
